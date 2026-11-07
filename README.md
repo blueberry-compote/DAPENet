@@ -15,7 +15,7 @@ Small objects in aerial images occupy only a few pixels and are easily obscured 
 
 The framework uses a backbone to produce multi-scale features, applies DDA before cross-level fusion, enhances fused features with PGFE, and sends them to the detection head.
 
-<!-- Add the DAPENet architecture figure from the paper here, for example: ![DAPENet architecture](assets/dapenet_overview.png) -->
+![fig](assets/frameworkfinal.pdf)
 
 ## Method
 
