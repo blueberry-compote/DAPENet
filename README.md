@@ -78,7 +78,7 @@ cd ..
 
 ## Data Preparation
 
-Download and prepare the VisDrone and UAVDT datasets in COCO format. The original README points to the datasets' official sources and [UFPMP-Det](https://github.com/PuAnysh/UFPMP-Det) as an alternative source.
+Download and prepare the VisDrone and UAVDT datasets in COCO format. 
 
 Update dataset paths in the corresponding configuration files under [`configs/UAV`](configs/UAV) before training or evaluation. Dataset directory names and annotation paths must match the configuration.
 
