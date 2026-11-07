@@ -110,28 +110,6 @@ For example, to evaluate the latest checkpoint in a work directory:
 python tools/test.py /path/to/config-file /path/to/work-dir/latest.pth --eval bbox
 ```
 
-## Checkpoints
 
-The supplied original README listed CEASC checkpoints, which are for a different method and should not be presented as DAPENet weights. Add DAPENet checkpoints here when they are available, including the matching config and dataset.
-
-## Repository Structure
-
-- `mmdet/models/dense_heads/`: detection head implementations (including the project-specific modules described in the paper).
-- `Sparse_conv/`: sparse convolution implementation and build script.
-- `configs/UAV/`: UAV detection configurations.
-- `tools/train.py`, `tools/test.py`: MMDetection training and evaluation entry points.
-
-## Citation
-
-If you find this work useful, please cite the paper:
-
-```bibtex
-@inproceedings{dapenet2026,
-  title     = {Dynamic Alignment and Prototype-Guided Enhancement Network for Small Object Detection},
-  author    = {Anonymous Author(s)},
-  booktitle = {Proceedings of ACM Multimedia Asia (MMAsia '26)},
-  year      = {2026}
-}
-```
 
 The provided PDF is anonymized and contains placeholder DOI and ISBN fields. Replace the author field and add final publication metadata when those details are available.
